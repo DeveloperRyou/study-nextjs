@@ -1,0 +1,316 @@
+body {
+    margin: 0%;
+}
+.container {
+    width: 600px;
+    box-sizing: border-box;
+}
+header{
+    width: 600px;
+    height: 70px;
+}
+.store-image img{
+    width: 600px;
+    height: 400px;
+    box-shadow: 10px ;
+}
+.store-name {
+    font-size: 37px;
+    text-align: center;
+    font-weight: bolder;
+}
+.store-name article {
+    border: 1px solid black;
+    background-color: black;
+    color: aliceblue;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 30%;
+    box-sizing: border-box;
+    padding: 4px 8px;
+}
+.emoticon-1 img{
+    width: 20px;
+    height: 20px;
+}
+.emoticon-2 img{
+    width: 20px;
+    height: 20px;
+}
+.emoticon-3 img{
+    width: 20px;
+    height: 20px;
+}
+.box1 {
+    height: 13px;
+    width: 600px;
+    background-color: rgb(238, 237, 237);
+    margin-top: 40px;
+    box-shadow: inset 0px 2px rgb(202, 202, 202);
+}
+h3 {
+    text-align: center;
+    color: rgb(190, 189, 189);
+    font-weight: 500;
+}
+article div {
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+}
+.phone_number {
+    border: 2px solid rgb(206, 205, 205);
+    width: 250px;
+    border-radius: 3%;
+    height: 120px;
+    margin-left: 6%;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+.phone_number img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.phone_number a {
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+    font-size: 19px;
+    font-weight: 510;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+.phone_number a:hover{
+    text-decoration: underline;
+    color: dodgerblue;
+}
+.location {
+    border: 2px solid rgb(206, 205, 205);
+    width: 250px;
+    border-radius: 3%;
+    height: 120px;
+    margin: 0% 6% 0% 2%;
+    box-sizing: border-box;
+    position: relative;
+}
+.location img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.location a {
+    width: 210px;
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    font-size: 19px;
+    font-weight: 510;
+    color: rgb(70, 70, 70);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+.location a:hover{
+    text-decoration: underline;
+    color: dodgerblue;
+}
+.location span {
+    position: absolute;
+    background-color:rgb(230, 230, 230);
+    left: 25px;
+    top: 100px;
+    width: 220px;
+    display: none;
+}
+.location:hover span{
+    display: block;
+}
+.time {
+    border: 2px solid rgb(206, 205, 205);
+    width: 250px;
+    border-radius: 3%;
+    height: 120px;
+    margin: 2% 0% 0% 6%;
+    position: relative;
+}
+.time img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.time p {
+    width: 180px;
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    font-size: 19px;
+    font-weight: 510;
+    color: rgb(70, 70, 70);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.time span {
+    position: absolute;
+    background-color:rgb(230, 230, 230);
+    left: 50x;
+    top: 100px;
+    width: 300px;
+    display: none;
+}
+.time:hover span{
+    display: block;
+}
+.web {
+    border: 2px solid rgb(206, 205, 205);
+    width: 250px;
+    border-radius: 3%;
+    height: 120px;
+    margin: 2% 6% 0% 2%;
+    position: relative;
+}
+.web img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.web a {
+    width: 180px;
+    position: absolute;
+    bottom: 18%;
+    left: 10%;
+    font-size: 19px;
+    font-weight: 510;
+    color: rgb(70, 70, 70);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+.web a:hover {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.web span {
+    position: absolute;
+    background-color:rgb(230, 230, 230);
+    left: 25px;
+    top: 100px;
+    width: 200px;
+    display: none;
+}
+.web:hover span{
+    display: block;
+}
+.eolluga {
+    border: 2px solid rgb(206, 205, 205);
+    width: 250px;
+    border-radius: 3%;
+    height: 120px;
+    margin: 2% 0% 0% 6%;
+    position: relative;
+}
+.eolluga img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.eolluga a {
+    position: absolute;
+    bottom: 18%;
+    left: 30%;
+    font-size: 19px;
+    font-weight: 510;
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+}
+.pay {
+    border: 2px solid rgb(206, 205, 205);
+    width: 250px;
+    border-radius: 3%;
+    height: 120px;
+    margin: 0% 6% 0% 2%;
+    position: relative;
+}
+.pay img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.pay a {
+    position: absolute;
+    bottom: 18%;
+    left: 34%;
+    font-size: 19px;
+    font-weight: 510;
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+}
+.box2 {
+    height: 2px;
+    width: 600px;
+    background-color: rgb(238, 237, 237);
+    margin-top: 40px;
+}
+ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 40px;
+}
+li a {
+    text-decoration: none;
+    color: gray;
+}
+li a:hover {
+    color: black;
+}
+li p {
+    padding-top: -3px;
+}
+.home p {
+    color: black;
+}
+.home img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -20px;
+}
+.menu_management img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -20px;
+}
+.review_management img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -20px;
+}
+.storytel_management img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -20px;
+}

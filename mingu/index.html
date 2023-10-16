@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>피자헛 홍대점</title>
+    <style>
+        /* 전체 페이지 스타일 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* 로고 이미지 스타일 */
+        .logo {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* 피자헛 홍대점 스타일 */
+        .pizza-text {
+            text-align: center;
+            font-size: 70px;
+            margin-top: 10px;
+        }
+
+        /* 그리드 스타일 */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2x3 그리드로 변경 */
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 10px;
+            margin: 20px auto;
+            text-align: center;
+            max-width: 800px;
+        }
+
+        /* 그리드 아이템 스타일 */
+        .grid-item {
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 0;
+            min-height: 3.5em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+        }
+
+        /* 3개의 추가 그리드 스타일 */
+        .additional-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            margin: 20px auto;
+            text-align: center;
+            max-width: 500px;
+        }
+
+        /* 아래의 그리드 스타일 */
+        .bottom-grid {
+            text-align: center;
+            margin: 100px auto;
+            max-width: 800px;
+        }
+
+        /* 작게 만들 3개의 그리드 스타일 */
+        .small-grid-item {
+            background-color: black;
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 1.75em;
+            font-size: 20px;
+            color: white;
+        }
+
+        /* 추가 문구 스타일 */
+        .additional-text {
+            text-align: center;
+            margin: 30px 0;
+            font-weight: bold;
+            color: gray;
+        }
+
+        /* 6개의 그리드 아이템 이미지 스타일 */
+        .grid-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        /* 하나의 이미지를 가운데 정렬하고 가로로 5배 정도 길게 만듭니다. */
+        .bottom-image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .bottom-image {
+            width: 500%;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- 이미지를 전체 화면에 맞게 키움 -->
+<img src="C:\Users\82104\AppData\Local\Temp\clip1697209270628.png" alt="피자 이미지" class="logo" style="max-width: 800px; display: block; margin: 0 auto;">
+
+    <!-- "피자헛 홍대점" 텍스트를 사진 아래로 이동 -->
+    <div class="pizza-text">피자헛 홍대점</div>
+
+    <!-- 3개의 추가 그리드를 가운데 정렬하여 배치 -->
+    <div class="additional-grid">
+        <div class="grid-item small-grid-item">시원하다</div>
+        <div class="grid-item small-grid-item">시원하다</div>
+        <div class="grid-item small-grid-item">푸짐한 양</div>
+    </div>
+
+    <!-- 추가 문구 -->
+    <div class="additional-text">각 영역을 선택하여 쉽게 편집하실 수 있습니다.</div>
+
+    <!-- 2x3 그리드 아이템을 가운데 정렬 -->
+    <div class="grid-container">
+        <!-- 이미지를 넣는 부분 -->
+        <div class="grid-item"><img src="C:\Users\82104\AppData\Local\Temp/clip1697209341717.png" alt="이미지 1" class="grid-image"></div>
+        <div class="grid-item"><img src="C:\Users\82104\AppData\Local\Temp/clip1697209356852.png" alt="이미지 2" class="grid-image"></div>
+        <div class="grid-item"><img src="C:\Users\82104\AppData\Local\Temp/clip1697209370042.png" alt="이미지 3" class="grid-image"></div>
+        <div class="grid-item"><img src="C:\Users\82104\AppData\Local\Temp/clip1697209384275.png" alt="이미지 4" class="grid-image"></div>
+        <div class="grid-item"><img src="C:\Users\82104\AppData\Local\Temp/clip1697209406989.png" alt="이미지 5" class="grid-image"></div>
+        <div class="grid-item"><img src="C:\Users\82104\AppData\Local\Temp/clip1697209417859.png" alt="이미지 6" class="grid-image"></div>
+    </div>
+
+   <!-- 하나의 이미지를 가운데 정렬하고 가로로 5배 정도 길게 만듭니다. -->
+   <div class="bottom-grid">
+    <!-- 이미지를 넣는 부분 (이미지 파일 이름으로 삽입) -->
+    <div class="bottom-image-container">
+        <img src="C:\Users\82104\AppData\Local\Temp\clip1697209433651.png" alt="이미지 7" class="bottom-image">
+    </div>
+</div>
+</body>
+</html>

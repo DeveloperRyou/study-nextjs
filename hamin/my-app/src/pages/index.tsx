@@ -4,9 +4,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  return 
-  <body>
-  <div class="container">
+  return (<div class="container">
           <header></header>
           <section class="store-image">
               <img src="images/logo.png"/>
@@ -94,6 +92,5 @@ export default function Home() {
                   </ul>
               </article>
           </section>
-  </div>
-</body>
+  </div>)
 }

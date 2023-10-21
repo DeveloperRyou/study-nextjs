@@ -51,15 +51,15 @@ export default function Home() {
             <img src="images/icon-web.png" className='absolute left-[100px] top-[20px] w-[50px]'/>
             <a href='http://www.pizzahut.co.kr/' target="_blank" className= 'w-[190px] text-slate-600 absolute left-[32px] top-[70px] hover:text-[#1e90ff] hover:underline'>http://www.pizzahut.co.kr/</a>
         </div>
-        <div className='border border-slate-600 border-solid w-[250px] h-[120px] rounded text-center relative inline-block mr-[10px]'>
+        <div className='border border-slate-600 border-solid w-[250px] h-[120px] rounded text-center relative inline-block mr-[10px] mb-[50px]'>
             <img src="images/icon-reels.png" className='absolute left-[100px] top-[20px] w-[50px]'/>
             <a href='#none' className='text-slate-600 absolute left-[100px] top-[70px] hover:text-[#1e90ff] hover:underline '>얼루가</a>
         </div>
-        <div className='border border-slate-600 border-solid w-[250px] h-[120px] rounded text-center relative inline-block'>
+        <div className='border border-slate-600 border-solid w-[250px] h-[120px] rounded text-center relative inline-block mb-[50px]'>
             <img src="images/mdi-hand-coin-outline.png" className='absolute left-[100px] top-[20px] w-[50px]'/>
             <a href='#none' className='text-slate-600 absolute left-[95px] top-[70px] hover:text-[#1e90ff] hover:underline '>후불결제</a>
         </div>
-        <br /><br /><br />
+
     <div className='w-[650px] h-[2px] bg-slate-200 shadow-inner'></div>
     </section>
     <section className='w-[650px] h-[150px] bg-white'>
